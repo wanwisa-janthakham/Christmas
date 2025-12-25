@@ -45,3 +45,15 @@ body {
   from { transform: rotateY(0deg); }
   to   { transform: rotateY(360deg); }
 }
+
+/* 📱 ขยายต้นไม้บนมือถือ */
+@media (max-width: 600px) {
+  .tree {
+    transform: scale(1.8);
+  }
+
+  .star-top {
+    font-size: 36px;
+  }
+}
+
